@@ -1,0 +1,93 @@
+.mcqmodal__input[value] {
+  background-color: rgb(225, 238, 151);
+  height: 40px;
+  width: 60px;
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+.mcqmodal__input[value]:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
+  cursor: pointer;
+}
+
+.mcqmodal__input {
+  padding: 3px;
+  margin-left: 15px;
+  width: 50%;
+}
+.mcqmodal__question {
+  margin-top: 15px;
+  display: flex;
+
+  align-items: center;
+}
+
+.mcqmodal__title {
+  font-family: cursive;
+}
+
+.mcqmodal__formQuestion {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.mcqmodal__formQuestion > input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 15px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 50%;
+}
+
+/* mcq toggle */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.button-section {
+  margin: 3%;
+}
+.button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: royalblue;
+}
+
+.remove {
+  background-color: rgb(192, 53, 53);
+}
+.remove:hover {
+  background-color: rgb(187, 43, 43);
+}

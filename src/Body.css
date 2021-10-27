@@ -1,0 +1,12 @@
+.body {
+  flex: 0.8;
+  background: linear-gradient(rgb(202, 233, 226), rgba(0, 0, 0, 1));
+  color: white;
+  height: 100vh;
+  padding: 30px;
+}
+
+.popup__modal {
+  position: relative;
+  top: 250px;
+}
